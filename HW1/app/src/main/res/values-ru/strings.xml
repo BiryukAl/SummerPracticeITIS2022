@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ЛетняяПрактика22</string>
+    <string name="heading">BeautifulPoints</string>
+    <string name="inputName">Имя:</string>
+    <string name="inputHeight">Рост:</string>
+    <string name="inputAge">Возраст:</string>
+    <string name="inputWeight">Вес:</string>
+    <string name="buttonCalculate">Рассчитать</string>
+    <string name="errorInputData">Введенные данные некорректны</string>
+</resources>

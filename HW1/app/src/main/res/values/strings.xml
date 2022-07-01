@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SummPractice22</string>
+    <string name="heading">BeautifulPoints</string>
+    <string name="inputName">Name:</string>
+    <string name="inputHeight">Height:</string>
+    <string name="inputAge">Age:</string>
+    <string name="inputWeight">Weight:</string>
+    <string name="buttonCalculate">Calculate</string>
+    <string name="errorInputData">Data entered is incorrect</string>
+</resources>
