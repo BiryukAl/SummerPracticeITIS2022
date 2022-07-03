@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.homework2.fragmentSnackbars.ui.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/communitiesFragment"
+        android:name="com.example.homework2.fragmentSnackbars.ui.CommunitiesFragment"
+        android:label="CommunitiesFragment" >
+        <action
+            android:id="@+id/action_communitiesFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.homework2.fragmentSnackbars.ui.FriendsFragment"
+        android:label="FriendsFragment" >
+        <action
+            android:id="@+id/action_friendsFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/hubFragment"
+        android:name="com.example.homework2.fragmentSnackbars.ui.HubFragment"
+        android:label="HubFragment" >
+        <action
+            android:id="@+id/action_hubFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/messengerFragment"
+        android:name="com.example.homework2.fragmentSnackbars.ui.MessengerFragment"
+        android:label="MessengerFragment" >
+        <action
+            android:id="@+id/action_messengerFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.homework2.fragmentSnackbars.SettingsFragment"
+        android:label="SettingsFragment" />
+</navigation>

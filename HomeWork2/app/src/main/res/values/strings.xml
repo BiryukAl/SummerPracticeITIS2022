@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">HomeWork2</string>
+    <string name="buttonSettings">Settings</string>
+    <string name="communities">Communities</string>
+    <string name="friends">Friends</string>
+    <string name="hub">Hub</string>
+    <string name="main">Main</string>
+    <string name="settings">Settings</string>
+    <string name="messeger">Messeger</string>
 </resources>
