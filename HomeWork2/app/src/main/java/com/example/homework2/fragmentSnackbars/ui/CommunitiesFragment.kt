@@ -21,7 +21,7 @@ class CommunitiesFragment : Fragment(R.layout.fragment_communities) {
             buttonToSettings.setOnClickListener(){
                 findNavController().navigate(
                     R.id.action_communitiesFragment_to_settingsFragment,
-                    SettingsFragment.createBundle(R.string.communities.toString()))
+                    SettingsFragment.createBundle("communities" ))
             }
         }
 

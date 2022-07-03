@@ -21,7 +21,7 @@ class HubFragment : Fragment(R.layout.fragment_hub) {
             buttonToSettings.setOnClickListener(){
                 findNavController().navigate(
                     R.id.action_hubFragment_to_settingsFragment,
-                    SettingsFragment.createBundle(R.string.hub.toString()))
+                    SettingsFragment.createBundle("hub"))
             }
         }
 

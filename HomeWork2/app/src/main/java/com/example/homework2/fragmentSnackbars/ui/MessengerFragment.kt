@@ -21,7 +21,7 @@ class MessengerFragment : Fragment(R.layout.fragment_messenger) {
             buttonToSettings.setOnClickListener(){
                 findNavController().navigate(
                     R.id.action_messengerFragment_to_settingsFragment,
-                    SettingsFragment.createBundle(R.string.messeger.toString()))
+                    SettingsFragment.createBundle("messengers"))
             }
         }
 

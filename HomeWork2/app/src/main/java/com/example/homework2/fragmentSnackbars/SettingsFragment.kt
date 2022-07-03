@@ -20,7 +20,7 @@ class SettingsFragment : Fragment(R.layout.fragment_settings){
 
         if (text.isNotEmpty()){
 //            Toast.makeText(this, text, Toast.LENGTH_LONG).show()
-//            Snackbar.make(this, text, Snackbar.LENGTH_LONG).show()
+            Snackbar.make(view, text, Snackbar.LENGTH_LONG).show()
 
         }
     }

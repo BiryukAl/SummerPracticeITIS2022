@@ -21,7 +21,7 @@ class FriendsFragment : Fragment(R.layout.fragment_friends) {
             buttonToSettings.setOnClickListener(){
                 findNavController().navigate(
                     R.id.action_friendsFragment_to_settingsFragment,
-                    SettingsFragment.createBundle(R.string.friends.toString()))
+                    SettingsFragment.createBundle("friends"))
             }
         }
 

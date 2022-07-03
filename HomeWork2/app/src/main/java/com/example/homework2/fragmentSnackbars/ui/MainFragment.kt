@@ -20,7 +20,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
         with(binding) {
             buttonToSettings.setOnClickListener(){
                 findNavController().navigate(R.id.action_mainFragment_to_settingsFragment,
-                SettingsFragment.createBundle(R.string.main.toString()))
+                SettingsFragment.createBundle("main"))
         }
         }
 
