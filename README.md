@@ -1,5 +1,5 @@
 # SummPractice22
 
 * HomeWork1 - Done
-* HomeWork2 - In development
+* HomeWork2 - Done
 * HomeWork3 - In development
