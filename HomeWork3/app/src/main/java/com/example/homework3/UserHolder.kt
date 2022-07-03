@@ -16,6 +16,7 @@ class UserHolder(
 
                 root.setOnClickListener {
                     onItemClick(user)
+
                 }
 
             }

@@ -38,6 +38,5 @@
         android:textColor="@color/teal_200"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
-        app:layout_constraintStart_toEndOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/imageView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
