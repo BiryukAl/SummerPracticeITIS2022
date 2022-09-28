@@ -18,6 +18,7 @@ class DataFragment : Fragment(R.layout.data_fragment) {
 
 
 
+
 //        with(binding){
 //            textIdd.text = "id: $iddd"
 //        }

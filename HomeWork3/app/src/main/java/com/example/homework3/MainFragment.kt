@@ -12,7 +12,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
 
     private val usersService = UsersService()
 
-    private var adapter :UsersAdapter?  = null
+        private var adapter :UsersAdapter?  = null
 
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
@@ -24,6 +24,7 @@ class MainFragment : Fragment(R.layout.main_fragment) {
         adapter = UsersAdapter(usersService.getUsers()) {
             findNavController().navigate(
                 R.id.action_mainFragment_to_dataFragment,
+
                 DataFragment.createBundle(it.id.toInt()))
         }
 

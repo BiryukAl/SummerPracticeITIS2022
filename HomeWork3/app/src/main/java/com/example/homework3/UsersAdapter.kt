@@ -11,24 +11,24 @@ class UsersAdapter(
 ) : RecyclerView.Adapter<UserHolder>() {
 
 
-    override fun onCreateViewHolder(
-        parent: ViewGroup,
-        viewType: Int,
-    ): UserHolder = UserHolder(
-        ItemUserBinding.inflate(
-            LayoutInflater.from(parent.context),
-            parent,
-            false
-        ),
-        onItemClick
-    )
+        override fun onCreateViewHolder(
+            parent: ViewGroup,
+            viewType: Int,
+        ): UserHolder = UserHolder(
+            ItemUserBinding.inflate(
+                LayoutInflater.from(parent.context),
+                parent,
+                false
+            ),
+            onItemClick
+        )
 
     override fun onBindViewHolder(
         holder: UserHolder,
         position: Int,
-    ) {
-        holder.onBind(list[position])
-    }
+        ) {
+            holder.onBind(list[position])
+        }
 
     override fun getItemCount(): Int = list.size
 }
